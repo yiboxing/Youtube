@@ -22,3 +22,12 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.google.api-client:google-api-client:1.18.0-rc'
+}
+
